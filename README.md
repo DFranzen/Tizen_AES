@@ -24,7 +24,7 @@ If you want, you can change the security parameters:
 - AES_KEY_SIZE: Number of bits for the AES encryption
 - AES_KEY_PHRASE: Additional key to restrict access to the key in the Key Manager
 
-And then include the .h file where you want to use encryption.
+And then include the .h file where you want to use encryption:
 \#include "AES_helper.h"
 
 Now you have the two main functions available to you:
@@ -33,7 +33,7 @@ Now you have the two main functions available to you:
 
 ## Example
 ```
-\#include "AES_helper.h"
+#include "AES_helper.h"
 
 int ret;
 
